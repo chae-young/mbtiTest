@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import { Iresult } from '../stores/Result/types';
-import style from '../styles/style';
 
 const { Kakao } = window as any;
 
