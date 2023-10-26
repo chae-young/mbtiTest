@@ -1,0 +1,20 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import MainPage from './pages/MainPage';
+import QuestionPage from './pages/QuestionPage';
+import ResultPage from './pages/ResultPage';
+
+function App() {
+	return (
+		<BrowserRouter>
+			<Routes>
+				<Route path="/" element={<MainPage />} />
+				<Route path="/question" element={<QuestionPage />} />
+				<Route path="/result" element={<ResultPage />} />
+			</Routes>
+		</BrowserRouter>
+	);
+}
+
+export default App;
