@@ -43,6 +43,9 @@ const Contents = styled.section<{ $headerH: number }>`
 	text-align: center;
 	> img {
 		max-width: 100%;
+		width: 375px;
+		height: 300px;
+		/* aspect-ratio: 365 / 200; */
 	}
 `;
 
