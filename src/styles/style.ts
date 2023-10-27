@@ -61,6 +61,7 @@ const Button = styled.button`
 	background-color: var(--color-point);
 	height: 40px;
 	font-weight: 800;
+	color: #000;
 `;
 const EtcButton = styled.div`
 	margin-bottom: 80px;
@@ -71,6 +72,7 @@ const EtcButton = styled.div`
 		background: var(--color-point);
 		font-size: 12px;
 		font-weight: 800;
+		color: #000;
 	}
 	button + button {
 		margin-left: 10px;
