@@ -10,7 +10,6 @@ interface KaKaoShareButtonProps {
 const KaKaoShareButton = ({ data }: KaKaoShareButtonProps) => {
 	const url = 'https://mbti-test-eta.vercel.app';
 	const resultUrl = window.location.href;
-
 	useEffect(() => {
 		if (!Kakao.isInitialized()) Kakao.init(import.meta.env.VITE_KAKAOAPI);
 	}, []);
